@@ -3,5 +3,5 @@ void main() {
 
   num degreeByFahrenheit = (degree * (9 / 5)) + 32;
 
-  print('Degerr By Fahrenheit is :$degreeByFahrenheit °F ');
+  print('[ $degree° C = $degreeByFahrenheit° F ]');
 }

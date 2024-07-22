@@ -10,7 +10,7 @@ void main() {
   var n2 = num.parse(number2!);
 
   if (n2 != 0) {
-    var result = n1 / n2;
+    num result = n1 / n2;
     print('# Result Of Division is :$result');
   } else {
     print('=>[You can\'t Divide on Zero]<=');
