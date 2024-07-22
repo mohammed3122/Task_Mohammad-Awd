@@ -6,6 +6,6 @@ void main() {
       stdout.write('*');
       stdout.write('  ');
     }
-    print('');
+    print('   ');
   }
 }

@@ -1,11 +1,11 @@
 void main() {
   List<num> numbers = [1, 3, 5, 7, 9];
 
-  int number = 22;
+  int number = 5;
 
   if (numbers.contains(number)) {
-    print('$number : Exist in The list');
+    print('$number : Exists in The list');
   } else {
-    print('$number : Not Exist in The List');
+    print('$number : Not Exists in The List');
   }
 }

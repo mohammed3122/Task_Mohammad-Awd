@@ -3,5 +3,5 @@ void main() {
   num widthOfRectangle = 14.5;
 
   num perimeterOfRectangle = (lenghtOfRectangle + widthOfRectangle) * 2;
-  print('Area Of Rectangle is : $perimeterOfRectangle cm');
+  print('perimeter Of Rectangle is : $perimeterOfRectangle cm');
 }

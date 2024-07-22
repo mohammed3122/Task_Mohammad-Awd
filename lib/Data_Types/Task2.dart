@@ -8,7 +8,7 @@ void main() {
 
   int number;
 
-// print(number); // => excaption
+  //print(number); // => excaption
   // & and the program stopped
 
   int? number2;

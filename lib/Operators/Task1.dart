@@ -3,5 +3,5 @@ void main() {
   num widthOfRectangle = 14.5;
 
   num areaOfRectangle = lenghtOfRectangle * widthOfRectangle;
-  print('Area Of Rectangle is : $areaOfRectangle cm^2');
+  print('Area Of Rectangle is : $areaOfRectangle cm2');
 }
