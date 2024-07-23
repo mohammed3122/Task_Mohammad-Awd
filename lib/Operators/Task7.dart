@@ -1,51 +1,18 @@
-//n   //c
-// f = 5   *  (5-1)  => 20
-// f = 20  *  (4-1)  => 60
-// f = 60  *  (3-1)  => 120
-// f = 120 *  (2-1)  => #120#
-
-// f = 5 * (5-1) => 120
+import 'dart:io';
 
 void main() {
-  int n = 8;
-//////////////////////////////////
-  int c = (n - 1);
+  stdout.write('Enter The number : ');
+  var number = stdin.readLineSync();
+  var n1 = int.parse(number!);
 
-  int fn = n * c;
-//////////////////////////////////
-  c = (c - 1);
-
-  fn = fn * c;
-//////////////////////////////////
-  c = (c - 1);
-
-  fn = fn * c;
-//////////////////////////////////
-  c = (c - 1);
-
-  fn = fn * c;
-//////////////////////////////////
-  c = (c - 1);
-
-  fn = fn * c;
-//////////////////////////////////
-  c = (c - 1);
-
-  fn = fn * c;
-//////////////////////////////////
-  print(fn);
+  print('#[Factorial $n1 is : ${Factorial(n1)}]');
 }
 
-// void main() {
-//   int number = 8;
-//   int factorial = calculateFactorial(number);
-//   print('The factorial of $number is $factorial');
-// }
-
-// int calculateFactorial(int n) {
-//   if (n <= 1) {
-//     return 1;
-//   } else {
-//     return n * calculateFactorial(n - 1);
-//   }
-// }
+int Factorial(int n) {
+  if (n <= 1) {
+    ///////^=> because factorial = * number from it to (1)
+    return 1;
+  } else {
+    return n * Factorial(n - 1);
+  } ///////////^=> this mean : back to function to implememt it again until base case = true
+}
